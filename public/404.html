@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Redirecting...</title>
+  <script>
+    // Single Page App for GitHub Pages
+    // MIT License
+    // This script takes the current URL and redirects the user to the same URL with
+    // path, but at the root of the app. This allows client-side routing to work on GitHub Pages.
+    (function() {
+      // Get the repository name from the URL
+      const repoName = location.pathname.split('/')[1];
+      const path = location.pathname.split('/').slice(2).join('/');
+      
+      sessionStorage.setItem('redirect', path);
+      location.href = '/' + repoName;
+    })();
+  </script>
+</head>
+<body>
+  <p>Redirecting...</p>
+</body>
+</html> 
