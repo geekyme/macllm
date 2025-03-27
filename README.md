@@ -39,7 +39,13 @@ npm run build
 
 ## GitHub Pages Deployment
 
-This project is configured to automatically deploy to GitHub Pages when changes are merged to the main branch. The deployment is handled by GitHub Actions.
+This project is configured to automatically deploy to GitHub Pages in the following ways:
+
+1. **Automatic daily deployments**: The site is automatically built and deployed every day at midnight UTC to ensure data stays current.
+2. **On push to main**: Any changes merged to the main branch trigger a deployment.
+3. **Manual triggers**: Deployments can be manually triggered from the GitHub Actions tab.
+
+The deployment process fetches the latest Ollama model data during each build, ensuring the compatibility information is always up-to-date.
 
 ### Setup Instructions
 
@@ -47,7 +53,7 @@ This project is configured to automatically deploy to GitHub Pages when changes 
 2. Go to your repository settings
 3. Navigate to "Pages" in the sidebar
 4. Under "Build and deployment", select "GitHub Actions" as the source
-5. The site will be automatically deployed on each push to the main branch
+5. The site will be automatically deployed on each push to the main branch and daily at midnight UTC
 
 ### Manual Deployment
 

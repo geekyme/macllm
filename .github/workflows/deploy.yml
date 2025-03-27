@@ -5,6 +5,10 @@ on:
   push:
     branches: ["main"]
 
+  # Runs on a daily schedule at midnight UTC
+  schedule:
+    - cron: '0 0 * * *'
+
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
@@ -21,7 +25,7 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  # Build job
+  # Build job (runs daily at midnight UTC and on pushes to main)
   build:
     runs-on: ubuntu-latest
     steps:
