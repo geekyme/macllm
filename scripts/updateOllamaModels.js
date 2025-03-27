@@ -1,6 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import https from 'https';
 import * as cheerio from 'cheerio';
 
 // Get the directory name in ESM
@@ -8,21 +9,69 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 /**
- * Parses the Ollama HTML file to extract model information
+ * Updates Ollama models data by downloading HTML and extracting model information
  */
-function parseOllamaModels() {
-  // Path to the HTML file
-  const htmlFilePath = path.resolve(__dirname, '../public/ollama.html');
+async function updateOllamaModels() {
+  console.log('Starting Ollama models update...');
   
-  // Check if the file exists
-  if (!fs.existsSync(htmlFilePath)) {
-    console.error('Error: ollama.html file not found');
-    return null;
+  try {
+    // Step 1: Download the HTML
+    const html = await downloadOllamaHTML();
+    
+    // Step 2: Parse the HTML and save the model data
+    const models = parseOllamaHTML(html);
+    
+    // Step 3: Write the models to a JSON file
+    const outputPath = path.resolve(__dirname, '../src/data/ollamaModels.json');
+    fs.mkdirSync(path.dirname(outputPath), { recursive: true });
+    fs.writeFileSync(outputPath, JSON.stringify(models, null, 2));
+    
+    console.log(`Successfully extracted ${models.length} Ollama models and saved to ${outputPath}`);
+    return models;
+  } catch (error) {
+    console.error('Error updating Ollama models:', error.message);
+    process.exit(1);
   }
+}
+
+/**
+ * Downloads the HTML from Ollama's library page
+ * @returns {Promise<string>} The HTML content
+ */
+function downloadOllamaHTML() {
+  const url = 'https://ollama.com/library';
   
-  // Read the HTML file
-  const htmlContent = fs.readFileSync(htmlFilePath, 'utf8');
+  console.log(`Downloading Ollama library HTML from ${url}...`);
   
+  return new Promise((resolve, reject) => {
+    https.get(url, (response) => {
+      if (response.statusCode !== 200) {
+        reject(new Error(`Failed to download: ${response.statusCode}`));
+        return;
+      }
+      
+      let data = '';
+      response.on('data', (chunk) => {
+        data += chunk;
+      });
+      
+      response.on('end', () => {
+        console.log('Successfully downloaded HTML');
+        resolve(data);
+      });
+    }).on('error', (err) => {
+      console.error('Error downloading HTML:', err.message);
+      reject(err);
+    });
+  });
+}
+
+/**
+ * Parses the Ollama HTML content to extract model information
+ * @param {string} htmlContent - The HTML content to parse
+ * @returns {Array} Array of model objects
+ */
+function parseOllamaHTML(htmlContent) {
   // Load HTML with cheerio
   const $ = cheerio.load(htmlContent);
   
@@ -95,18 +144,12 @@ function parseOllamaModels() {
     return a.parameterSize - b.parameterSize;
   });
   
-  // Write the models to a JSON file
-  const outputPath = path.resolve(__dirname, '../src/data/ollamaModels.json');
-  fs.mkdirSync(path.dirname(outputPath), { recursive: true });
-  fs.writeFileSync(outputPath, JSON.stringify(models, null, 2));
-  
-  console.log(`Successfully extracted ${models.length} Ollama models and saved to ${outputPath}`);
   return models;
 }
 
 // Execute the function if this script is run directly
 if (import.meta.url === `file://${process.argv[1]}`) {
-  parseOllamaModels();
+  updateOllamaModels();
 }
 
-export default parseOllamaModels; 
+export default updateOllamaModels; 

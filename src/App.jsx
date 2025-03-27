@@ -57,8 +57,6 @@ const specs = {
   ]
 }
 
-// Use the imported JSON data, or fall back to an empty array if the file doesn't exist yet
-// This fallback is useful during development before the first build
 const ollamaModels = ollamaModelsData || [];
 
 function App() {
@@ -250,14 +248,12 @@ function App() {
               </div>
             </div>
             
-            {/* Filter controls */}
             <div className="mb-6 bg-white rounded-lg shadow-lg p-6 w-full">
               <div className="mb-4">
                 <h3 className="font-medium text-gray-700 mb-2">Filter by model size:</h3>
                 <div className="flex flex-wrap gap-2">
                   {categoryOrder.map(category => {
                     const isSelected = selectedCategories.includes(category);
-                    // Get display name for the button
                     const displayName = 
                       category === 'tiny' ? 'Tiny' :
                       category === 'small' ? 'Small' :

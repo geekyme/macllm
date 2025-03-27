@@ -31,16 +31,16 @@ export default defineConfig({
     react(),
     tailwindcss(),
     {
-      name: 'parse-ollama-models',
+      name: 'update-ollama-models',
       apply: 'build', // Run during build only
       buildStart() {
         try {
-          console.log('🔄 Parsing Ollama models from HTML...');
+          console.log('🔄 Updating Ollama models data...');
           // Use the --experimental-specifier-resolution=node flag to support ESM imports without extensions
-          execSync('node --experimental-specifier-resolution=node scripts/parseOllamaModels.js', { stdio: 'inherit' });
-          console.log('✅ Ollama models parsed successfully.');
+          execSync('node --experimental-specifier-resolution=node scripts/updateOllamaModels.js', { stdio: 'inherit' });
+          console.log('✅ Ollama models updated successfully.');
         } catch (error) {
-          console.error('❌ Error parsing Ollama models:', error);
+          console.error('❌ Error updating Ollama models:', error);
         }
       }
     }

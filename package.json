@@ -8,7 +8,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "update-models": "node scripts/downloadOllamaHTML.js"
+    "update-models": "node scripts/updateOllamaModels.js"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.0.15",
