@@ -1,5 +1,6 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import ollamaModelsData from './data/ollamaModels.json'
+import MiniSearch from 'minisearch'
 
 const macModels = [
   { id: 'macbook-air', name: 'MacBook Air' },
@@ -65,8 +66,47 @@ function App() {
   const [selectedRam, setSelectedRam] = useState('')
   const [selectedCategories, setSelectedCategories] = useState(['tiny', 'small', 'medium', 'large', 'extra-large', 'uncategorized'])
   const [selectedStatuses, setSelectedStatuses] = useState(['Compatible', 'May not run well', 'Not compatible'])
+  const [searchTerm, setSearchTerm] = useState('')
+  const [searchResults, setSearchResults] = useState([])
+  const [miniSearch, setMiniSearch] = useState(null)
 
-  // Get compatibility status for a model based on RAM
+  useEffect(() => {
+    const searchInstance = new MiniSearch({
+      fields: ['name', 'size'],
+      storeFields: ['name', 'size', 'lastUpdated', 'parameterSize'],
+      searchOptions: {
+        boost: { name: 2 },
+        prefix: true,
+        fuzzy: 0.2
+      }
+    })
+
+    searchInstance.addAll(
+      ollamaModels.map((model, index) => ({
+        ...model,
+        id: index
+      }))
+    )
+
+    setMiniSearch(searchInstance)
+    setSearchResults(ollamaModels)
+  }, [])
+
+  useEffect(() => {
+    if (!miniSearch) return
+
+    if (searchTerm.trim() === '') {
+      setSearchResults(ollamaModels)
+    } else {
+      const results = miniSearch.search(searchTerm)
+      const matchedModels = results.map(result => 
+        ollamaModels.find((model, index) => index === result.id)
+      )
+      
+      setSearchResults(matchedModels)
+    }
+  }, [searchTerm, miniSearch])
+
   const getModelCompatibilityStatus = (parameterSize, ram) => {
     const usage = (parameterSize / ram) * 100;
 
@@ -79,7 +119,6 @@ function App() {
     }
   };
 
-  // Get background color for status badge
   const getStatusColor = (status) => {
     switch (status) {
       case "Compatible":
@@ -93,7 +132,6 @@ function App() {
     }
   };
 
-  // Assign models to categories based on parameter size
   const categorizeModel = (parameterSize) => {
     if (parameterSize < 4) return 'tiny';
     if (parameterSize < 8) return 'small';
@@ -102,9 +140,7 @@ function App() {
     return 'extra-large';
   };
 
-  // Group models by category for display
-  const groupedModels = ollamaModels.reduce((acc, model) => {
-    // Categorize based on parameter size
+  const groupedSearchResults = searchResults.reduce((acc, model) => {
     const category = categorizeModel(model.parameterSize);
     if (!acc[category]) {
       acc[category] = [];
@@ -113,10 +149,8 @@ function App() {
     return acc;
   }, {});
 
-  // Display categories in order
   const categoryOrder = ['tiny', 'small', 'medium', 'large', 'extra-large', 'uncategorized'];
   
-  // Format the category name for display
   const formatCategoryName = (category) => {
     switch(category) {
       case 'tiny': return 'Tiny models (under 4B parameters)';
@@ -156,7 +190,7 @@ function App() {
                 Mac Model
               </label>
               <select
-                className="w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500"
+                className="w-full px-3 py-1 text-sm rounded-md border border-gray-300 focus:border-blue-500 focus:ring-blue-500"
                 value={selectedModel}
                 onChange={(e) => {
                   setSelectedModel(e.target.value)
@@ -178,7 +212,7 @@ function App() {
                 Chip
               </label>
               <select
-                className="w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500"
+                className="w-full px-3 py-1 text-sm rounded-md border border-gray-300 focus:border-blue-500 focus:ring-blue-500"
                 value={selectedSpec}
                 onChange={(e) => {
                   setSelectedSpec(e.target.value)
@@ -200,7 +234,7 @@ function App() {
                 RAM
               </label>
               <select
-                className="w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500"
+                className="w-full px-3 py-1 text-sm rounded-md border border-gray-300 focus:border-blue-500 focus:ring-blue-500"
                 value={selectedRam}
                 onChange={(e) => setSelectedRam(e.target.value)}
                 disabled={!selectedSpec}
@@ -250,7 +284,34 @@ function App() {
             
             <div className="mb-6 bg-white rounded-lg shadow-lg p-6 w-full">
               <div className="mb-4">
-                <h3 className="font-medium text-gray-700 mb-2">Filter by model size:</h3>
+                <label htmlFor="search" className="block text-sm font-medium text-gray-700 mb-2">
+                  Search Models:
+                </label>
+                <div className="relative rounded-md">
+                  <input
+                    type="text"
+                    name="search"
+                    id="search"
+                    className="block w-full px-3 py-1 pr-10 border border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500 sm:text-sm"
+                    placeholder="Search by model name or properties..."
+                    value={searchTerm}
+                    onChange={(e) => setSearchTerm(e.target.value)}
+                  />
+                  <div className="absolute inset-y-0 right-0 pr-3 flex items-center pointer-events-none">
+                    <svg className="h-5 w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                      <path fillRule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clipRule="evenodd" />
+                    </svg>
+                  </div>
+                </div>
+                {searchTerm && (
+                  <div className="mt-2 text-sm text-gray-600">
+                    Found {searchResults.length} {searchResults.length === 1 ? 'result' : 'results'} for "{searchTerm}"
+                  </div>
+                )}
+              </div>
+              
+              <div className="mb-4">
+                <h3 className="font-medium text-sm text-gray-700 mb-2">Filter by model size:</h3>
                 <div className="flex flex-wrap gap-2">
                   {categoryOrder.map(category => {
                     const isSelected = selectedCategories.includes(category);
@@ -301,14 +362,13 @@ function App() {
               </div>
               
               <div>
-                <h3 className="font-medium text-gray-700 mb-2">Filter by status:</h3>
+                <h3 className="font-medium text-sm text-gray-700 mb-2">Filter by status:</h3>
                 <div className="flex flex-wrap gap-2">
                   {['Compatible', 'May not run well', 'Not compatible'].map(status => {
                     const isSelected = selectedStatuses.includes(status);
                     const getButtonStyle = () => {
                       if (!isSelected) return 'bg-gray-50 text-gray-600 border-gray-200 hover:border-gray-400';
                       
-                      // Use blue borders and text for all selected status filters
                       return 'bg-white text-blue-600 border-blue-600 hover:bg-blue-50';
                     };
                     
@@ -369,10 +429,9 @@ function App() {
                   </thead>
                   <tbody className="bg-white divide-y divide-gray-200">
                     {categoryOrder.filter(category => selectedCategories.includes(category)).map(category => {
-                      const modelsInCategory = groupedModels[category] || [];
+                      const modelsInCategory = groupedSearchResults[category] || [];
                       const ramGB = parseInt(selectedRam);
                       
-                      // Filter models based on status selection
                       const filteredModels = modelsInCategory.filter(model => {
                         const status = getModelCompatibilityStatus(model.parameterSize, ramGB);
                         return selectedStatuses.includes(status.status);
@@ -408,16 +467,15 @@ function App() {
                         </React.Fragment>
                       );
                     })}
-                    {/* Show a message if no models match the filter criteria */}
                     {categoryOrder.filter(category => selectedCategories.includes(category))
-                      .flatMap(category => groupedModels[category] || [])
+                      .flatMap(category => groupedSearchResults[category] || [])
                       .filter(model => {
                         const status = getModelCompatibilityStatus(model.parameterSize, parseInt(selectedRam));
                         return selectedStatuses.includes(status.status);
                       }).length === 0 && (
                         <tr>
                           <td colSpan="4" className="px-6 py-6 text-center text-gray-500">
-                            No models match your current filter criteria. Try adjusting your filters.
+                            No models match your current filter criteria. Try adjusting your filters or search terms.
                           </td>
                         </tr>
                       )}
