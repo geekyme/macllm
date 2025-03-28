@@ -15,7 +15,7 @@ const specs = {
     { id: 'm1', name: 'M1', ram: [8, 16] },
     { id: 'm2', name: 'M2', ram: [8, 16, 24] },
     { id: 'm3', name: 'M3', ram: [8, 16, 24] },
-    { id: 'm4', name: 'M4', ram: [16, 24, 32] },
+    { id: 'm4', name: 'M4', ram: [8, 16, 24, 32] },
   ],
   'macbook-pro': [
     { id: 'm1', name: 'M1', ram: [8, 16] },
@@ -34,7 +34,7 @@ const specs = {
   'imac': [
     { id: 'm1', name: 'M1', ram: [8, 16] },
     { id: 'm3', name: 'M3', ram: [8, 16, 24] },
-    { id: 'm4', name: 'M4', ram: [8, 16, 24, 32] },
+    { id: 'm4', name: 'M4', ram: [16, 24, 32] },
   ],
   'mac-mini': [
     { id: 'm1', name: 'M1', ram: [8, 16] },
