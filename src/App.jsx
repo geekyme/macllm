@@ -360,6 +360,9 @@ function App() {
                         Size
                       </th>
                       <th scope="col" className="px-6 py-3 text-left text-xs font-medium uppercase tracking-wider">
+                        Last Updated
+                      </th>
+                      <th scope="col" className="px-6 py-3 text-left text-xs font-medium uppercase tracking-wider">
                         Status
                       </th>
                     </tr>
@@ -382,7 +385,7 @@ function App() {
                       return (
                         <React.Fragment key={category}>
                           <tr>
-                            <td colSpan="3" className="px-6 py-3 bg-gray-100 text-sm font-medium text-gray-800">
+                            <td colSpan="4" className="px-6 py-3 bg-gray-100 text-sm font-medium text-gray-800">
                               {formatCategoryName(category)} ({filteredModels.length}/{modelsInCategory.length} shown)
                             </td>
                           </tr>
@@ -393,6 +396,7 @@ function App() {
                               <tr key={`${model.name}-${model.size}`}>
                                 <td className="px-6 py-4 whitespace-nowrap">{model.name}</td>
                                 <td className="px-6 py-4 whitespace-nowrap">{model.size}</td>
+                                <td className="px-6 py-4 whitespace-nowrap">{model.lastUpdated || 'Unknown'}</td>
                                 <td className="px-6 py-4 whitespace-nowrap">
                                   <span className={`px-2 inline-flex text-xs leading-5 font-semibold rounded-full ${statusColor}`}>
                                     {status.status}
@@ -412,7 +416,7 @@ function App() {
                         return selectedStatuses.includes(status.status);
                       }).length === 0 && (
                         <tr>
-                          <td colSpan="3" className="px-6 py-6 text-center text-gray-500">
+                          <td colSpan="4" className="px-6 py-6 text-center text-gray-500">
                             No models match your current filter criteria. Try adjusting your filters.
                           </td>
                         </tr>

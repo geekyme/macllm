@@ -1,1487 +1,1784 @@
 [
   {
-    "name": "alfred",
-    "size": "40b",
-    "parameterSize": 40
-  },
-  {
-    "name": "all-minilm",
-    "size": "22m",
-    "parameterSize": 0.022
-  },
-  {
-    "name": "all-minilm",
-    "size": "33m",
-    "parameterSize": 0.033
-  },
-  {
-    "name": "athene-v2",
-    "size": "72b",
-    "parameterSize": 72
-  },
-  {
-    "name": "aya",
-    "size": "8b",
-    "parameterSize": 8
-  },
-  {
-    "name": "aya",
-    "size": "35b",
-    "parameterSize": 35
-  },
-  {
-    "name": "aya-expanse",
-    "size": "8b",
-    "parameterSize": 8
-  },
-  {
-    "name": "aya-expanse",
-    "size": "32b",
-    "parameterSize": 32
-  },
-  {
-    "name": "bakllava",
-    "size": "7b",
-    "parameterSize": 7
-  },
-  {
-    "name": "bespoke-minicheck",
-    "size": "7b",
-    "parameterSize": 7
-  },
-  {
-    "name": "bge-large",
-    "size": "335m",
-    "parameterSize": 0.335
-  },
-  {
-    "name": "bge-m3",
-    "size": "567m",
-    "parameterSize": 0.567
-  },
-  {
-    "name": "codebooga",
-    "size": "34b",
-    "parameterSize": 34
-  },
-  {
-    "name": "codegeex4",
-    "size": "9b",
-    "parameterSize": 9
-  },
-  {
-    "name": "codegemma",
-    "size": "2b",
-    "parameterSize": 2
-  },
-  {
-    "name": "codegemma",
-    "size": "7b",
-    "parameterSize": 7
-  },
-  {
-    "name": "codellama",
-    "size": "7b",
-    "parameterSize": 7
-  },
-  {
-    "name": "codellama",
-    "size": "13b",
-    "parameterSize": 13
-  },
-  {
-    "name": "codellama",
-    "size": "34b",
-    "parameterSize": 34
-  },
-  {
-    "name": "codellama",
-    "size": "70b",
-    "parameterSize": 70
-  },
-  {
-    "name": "codeqwen",
-    "size": "7b",
-    "parameterSize": 7
-  },
-  {
-    "name": "codestral",
-    "size": "22b",
-    "parameterSize": 22
-  },
-  {
-    "name": "codeup",
-    "size": "13b",
-    "parameterSize": 13
-  },
-  {
-    "name": "command-a",
-    "size": "111b",
-    "parameterSize": 111
-  },
-  {
-    "name": "command-r",
-    "size": "35b",
-    "parameterSize": 35
-  },
-  {
-    "name": "command-r-plus",
-    "size": "104b",
-    "parameterSize": 104
-  },
-  {
-    "name": "command-r7b",
-    "size": "7b",
-    "parameterSize": 7
-  },
-  {
-    "name": "command-r7b-arabic",
-    "size": "7b",
-    "parameterSize": 7
-  },
-  {
-    "name": "dbrx",
-    "size": "132b",
-    "parameterSize": 132
-  },
-  {
-    "name": "deepscaler",
-    "size": "1.5b",
-    "parameterSize": 1.5
-  },
-  {
-    "name": "deepseek-coder",
-    "size": "1.3b",
-    "parameterSize": 1.3
-  },
-  {
-    "name": "deepseek-coder",
-    "size": "6.7b",
-    "parameterSize": 6.7
-  },
-  {
-    "name": "deepseek-coder",
-    "size": "33b",
-    "parameterSize": 33
-  },
-  {
-    "name": "deepseek-coder-v2",
-    "size": "16b",
-    "parameterSize": 16
-  },
-  {
-    "name": "deepseek-coder-v2",
-    "size": "236b",
-    "parameterSize": 236
-  },
-  {
-    "name": "deepseek-llm",
-    "size": "7b",
-    "parameterSize": 7
-  },
-  {
-    "name": "deepseek-llm",
-    "size": "67b",
-    "parameterSize": 67
-  },
-  {
-    "name": "deepseek-r1",
-    "size": "1.5b",
-    "parameterSize": 1.5
-  },
-  {
-    "name": "deepseek-r1",
-    "size": "7b",
-    "parameterSize": 7
-  },
-  {
-    "name": "deepseek-r1",
-    "size": "8b",
-    "parameterSize": 8
-  },
-  {
-    "name": "deepseek-r1",
-    "size": "14b",
-    "parameterSize": 14
-  },
-  {
-    "name": "deepseek-r1",
-    "size": "32b",
-    "parameterSize": 32
-  },
-  {
-    "name": "deepseek-r1",
-    "size": "70b",
-    "parameterSize": 70
-  },
-  {
-    "name": "deepseek-r1",
-    "size": "671b",
-    "parameterSize": 671
-  },
-  {
-    "name": "deepseek-v2",
-    "size": "16b",
-    "parameterSize": 16
-  },
-  {
-    "name": "deepseek-v2",
-    "size": "236b",
-    "parameterSize": 236
-  },
-  {
-    "name": "deepseek-v2.5",
-    "size": "236b",
-    "parameterSize": 236
-  },
-  {
-    "name": "deepseek-v3",
-    "size": "671b",
-    "parameterSize": 671
-  },
-  {
-    "name": "dolphin-llama3",
-    "size": "8b",
-    "parameterSize": 8
-  },
-  {
-    "name": "dolphin-llama3",
-    "size": "70b",
-    "parameterSize": 70
-  },
-  {
-    "name": "dolphin-mistral",
-    "size": "7b",
-    "parameterSize": 7
-  },
-  {
-    "name": "dolphin-mixtral",
-    "size": "8x7b",
-    "parameterSize": 56
-  },
-  {
-    "name": "dolphin-mixtral",
-    "size": "8x22b",
-    "parameterSize": 176
-  },
-  {
-    "name": "dolphin-phi",
-    "size": "2.7b",
-    "parameterSize": 2.7
-  },
-  {
-    "name": "dolphin3",
-    "size": "8b",
-    "parameterSize": 8
-  },
-  {
-    "name": "dolphincoder",
-    "size": "7b",
-    "parameterSize": 7
-  },
-  {
-    "name": "dolphincoder",
-    "size": "15b",
-    "parameterSize": 15
-  },
-  {
-    "name": "duckdb-nsql",
-    "size": "7b",
-    "parameterSize": 7
-  },
-  {
-    "name": "everythinglm",
-    "size": "13b",
-    "parameterSize": 13
-  },
-  {
-    "name": "exaone-deep",
-    "size": "2.4b",
-    "parameterSize": 2.4
-  },
-  {
-    "name": "exaone-deep",
-    "size": "7.8b",
-    "parameterSize": 7.8
-  },
-  {
-    "name": "exaone-deep",
-    "size": "32b",
-    "parameterSize": 32
-  },
-  {
-    "name": "exaone3.5",
-    "size": "2.4b",
-    "parameterSize": 2.4
-  },
-  {
-    "name": "exaone3.5",
-    "size": "7.8b",
-    "parameterSize": 7.8
-  },
-  {
-    "name": "exaone3.5",
-    "size": "32b",
-    "parameterSize": 32
-  },
-  {
-    "name": "falcon",
-    "size": "7b",
-    "parameterSize": 7
-  },
-  {
-    "name": "falcon",
-    "size": "40b",
-    "parameterSize": 40
-  },
-  {
-    "name": "falcon",
-    "size": "180b",
-    "parameterSize": 180
-  },
-  {
-    "name": "falcon2",
-    "size": "11b",
-    "parameterSize": 11
-  },
-  {
-    "name": "falcon3",
-    "size": "1b",
-    "parameterSize": 1
-  },
-  {
-    "name": "falcon3",
-    "size": "3b",
-    "parameterSize": 3
-  },
-  {
-    "name": "falcon3",
-    "size": "7b",
-    "parameterSize": 7
-  },
-  {
-    "name": "falcon3",
-    "size": "10b",
-    "parameterSize": 10
-  },
-  {
-    "name": "firefunction-v2",
-    "size": "70b",
-    "parameterSize": 70
-  },
-  {
-    "name": "gemma",
-    "size": "2b",
-    "parameterSize": 2
-  },
-  {
-    "name": "gemma",
-    "size": "7b",
-    "parameterSize": 7
-  },
-  {
-    "name": "gemma2",
-    "size": "2b",
-    "parameterSize": 2
-  },
-  {
-    "name": "gemma2",
-    "size": "9b",
-    "parameterSize": 9
-  },
-  {
-    "name": "gemma2",
-    "size": "27b",
-    "parameterSize": 27
-  },
-  {
     "name": "gemma3",
     "size": "1b",
-    "parameterSize": 1
+    "parameterSize": 1,
+    "lastUpdated": "3 days ago"
   },
   {
     "name": "gemma3",
     "size": "4b",
-    "parameterSize": 4
+    "parameterSize": 4,
+    "lastUpdated": "3 days ago"
   },
   {
     "name": "gemma3",
     "size": "12b",
-    "parameterSize": 12
+    "parameterSize": 12,
+    "lastUpdated": "3 days ago"
   },
   {
     "name": "gemma3",
     "size": "27b",
-    "parameterSize": 27
-  },
-  {
-    "name": "glm4",
-    "size": "9b",
-    "parameterSize": 9
-  },
-  {
-    "name": "granite-code",
-    "size": "3b",
-    "parameterSize": 3
-  },
-  {
-    "name": "granite-code",
-    "size": "8b",
-    "parameterSize": 8
-  },
-  {
-    "name": "granite-code",
-    "size": "20b",
-    "parameterSize": 20
-  },
-  {
-    "name": "granite-code",
-    "size": "34b",
-    "parameterSize": 34
-  },
-  {
-    "name": "granite-embedding",
-    "size": "30m",
-    "parameterSize": 0.03
-  },
-  {
-    "name": "granite-embedding",
-    "size": "278m",
-    "parameterSize": 0.278
-  },
-  {
-    "name": "granite3-dense",
-    "size": "2b",
-    "parameterSize": 2
-  },
-  {
-    "name": "granite3-dense",
-    "size": "8b",
-    "parameterSize": 8
-  },
-  {
-    "name": "granite3-guardian",
-    "size": "2b",
-    "parameterSize": 2
-  },
-  {
-    "name": "granite3-guardian",
-    "size": "8b",
-    "parameterSize": 8
-  },
-  {
-    "name": "granite3-moe",
-    "size": "1b",
-    "parameterSize": 1
-  },
-  {
-    "name": "granite3-moe",
-    "size": "3b",
-    "parameterSize": 3
-  },
-  {
-    "name": "granite3.1-dense",
-    "size": "2b",
-    "parameterSize": 2
-  },
-  {
-    "name": "granite3.1-dense",
-    "size": "8b",
-    "parameterSize": 8
-  },
-  {
-    "name": "granite3.1-moe",
-    "size": "1b",
-    "parameterSize": 1
-  },
-  {
-    "name": "granite3.1-moe",
-    "size": "3b",
-    "parameterSize": 3
-  },
-  {
-    "name": "granite3.2",
-    "size": "2b",
-    "parameterSize": 2
-  },
-  {
-    "name": "granite3.2",
-    "size": "8b",
-    "parameterSize": 8
-  },
-  {
-    "name": "granite3.2-vision",
-    "size": "2b",
-    "parameterSize": 2
-  },
-  {
-    "name": "hermes3",
-    "size": "3b",
-    "parameterSize": 3
-  },
-  {
-    "name": "hermes3",
-    "size": "8b",
-    "parameterSize": 8
-  },
-  {
-    "name": "hermes3",
-    "size": "70b",
-    "parameterSize": 70
-  },
-  {
-    "name": "hermes3",
-    "size": "405b",
-    "parameterSize": 405
-  },
-  {
-    "name": "internlm2",
-    "size": "1m",
-    "parameterSize": 0.001
-  },
-  {
-    "name": "internlm2",
-    "size": "1.8b",
-    "parameterSize": 1.8
-  },
-  {
-    "name": "internlm2",
-    "size": "7b",
-    "parameterSize": 7
-  },
-  {
-    "name": "internlm2",
-    "size": "20b",
-    "parameterSize": 20
-  },
-  {
-    "name": "llama-guard3",
-    "size": "1b",
-    "parameterSize": 1
-  },
-  {
-    "name": "llama-guard3",
-    "size": "8b",
-    "parameterSize": 8
-  },
-  {
-    "name": "llama2",
-    "size": "7b",
-    "parameterSize": 7
-  },
-  {
-    "name": "llama2",
-    "size": "13b",
-    "parameterSize": 13
-  },
-  {
-    "name": "llama2",
-    "size": "70b",
-    "parameterSize": 70
-  },
-  {
-    "name": "llama2-chinese",
-    "size": "7b",
-    "parameterSize": 7
-  },
-  {
-    "name": "llama2-chinese",
-    "size": "13b",
-    "parameterSize": 13
-  },
-  {
-    "name": "llama2-uncensored",
-    "size": "7b",
-    "parameterSize": 7
-  },
-  {
-    "name": "llama2-uncensored",
-    "size": "70b",
-    "parameterSize": 70
-  },
-  {
-    "name": "llama3",
-    "size": "8b",
-    "parameterSize": 8
-  },
-  {
-    "name": "llama3",
-    "size": "70b",
-    "parameterSize": 70
-  },
-  {
-    "name": "llama3-chatqa",
-    "size": "8b",
-    "parameterSize": 8
-  },
-  {
-    "name": "llama3-chatqa",
-    "size": "70b",
-    "parameterSize": 70
-  },
-  {
-    "name": "llama3-gradient",
-    "size": "8b",
-    "parameterSize": 8
-  },
-  {
-    "name": "llama3-gradient",
-    "size": "70b",
-    "parameterSize": 70
-  },
-  {
-    "name": "llama3-groq-tool-use",
-    "size": "8b",
-    "parameterSize": 8
-  },
-  {
-    "name": "llama3-groq-tool-use",
-    "size": "70b",
-    "parameterSize": 70
-  },
-  {
-    "name": "llama3.1",
-    "size": "8b",
-    "parameterSize": 8
-  },
-  {
-    "name": "llama3.1",
-    "size": "70b",
-    "parameterSize": 70
-  },
-  {
-    "name": "llama3.1",
-    "size": "405b",
-    "parameterSize": 405
-  },
-  {
-    "name": "llama3.2",
-    "size": "1b",
-    "parameterSize": 1
-  },
-  {
-    "name": "llama3.2",
-    "size": "3b",
-    "parameterSize": 3
-  },
-  {
-    "name": "llama3.2-vision",
-    "size": "11b",
-    "parameterSize": 11
-  },
-  {
-    "name": "llama3.2-vision",
-    "size": "90b",
-    "parameterSize": 90
-  },
-  {
-    "name": "llama3.3",
-    "size": "70b",
-    "parameterSize": 70
-  },
-  {
-    "name": "llava",
-    "size": "7b",
-    "parameterSize": 7
-  },
-  {
-    "name": "llava",
-    "size": "13b",
-    "parameterSize": 13
-  },
-  {
-    "name": "llava",
-    "size": "34b",
-    "parameterSize": 34
-  },
-  {
-    "name": "llava-llama3",
-    "size": "8b",
-    "parameterSize": 8
-  },
-  {
-    "name": "llava-phi3",
-    "size": "3.8b",
-    "parameterSize": 3.8
-  },
-  {
-    "name": "magicoder",
-    "size": "7b",
-    "parameterSize": 7
-  },
-  {
-    "name": "marco-o1",
-    "size": "7b",
-    "parameterSize": 7
-  },
-  {
-    "name": "mathstral",
-    "size": "7b",
-    "parameterSize": 7
-  },
-  {
-    "name": "meditron",
-    "size": "7b",
-    "parameterSize": 7
-  },
-  {
-    "name": "meditron",
-    "size": "70b",
-    "parameterSize": 70
-  },
-  {
-    "name": "medllama2",
-    "size": "7b",
-    "parameterSize": 7
-  },
-  {
-    "name": "megadolphin",
-    "size": "120b",
-    "parameterSize": 120
-  },
-  {
-    "name": "minicpm-v",
-    "size": "8b",
-    "parameterSize": 8
-  },
-  {
-    "name": "mistral",
-    "size": "7b",
-    "parameterSize": 7
-  },
-  {
-    "name": "mistral-large",
-    "size": "123b",
-    "parameterSize": 123
-  },
-  {
-    "name": "mistral-nemo",
-    "size": "12b",
-    "parameterSize": 12
-  },
-  {
-    "name": "mistral-openorca",
-    "size": "7b",
-    "parameterSize": 7
-  },
-  {
-    "name": "mistral-small",
-    "size": "22b",
-    "parameterSize": 22
-  },
-  {
-    "name": "mistral-small",
-    "size": "24b",
-    "parameterSize": 24
-  },
-  {
-    "name": "mistrallite",
-    "size": "7b",
-    "parameterSize": 7
-  },
-  {
-    "name": "mixtral",
-    "size": "8x7b",
-    "parameterSize": 56
-  },
-  {
-    "name": "mixtral",
-    "size": "8x22b",
-    "parameterSize": 176
-  },
-  {
-    "name": "moondream",
-    "size": "1.8b",
-    "parameterSize": 1.8
-  },
-  {
-    "name": "mxbai-embed-large",
-    "size": "335m",
-    "parameterSize": 0.335
-  },
-  {
-    "name": "nemotron",
-    "size": "70b",
-    "parameterSize": 70
-  },
-  {
-    "name": "nemotron-mini",
-    "size": "4b",
-    "parameterSize": 4
-  },
-  {
-    "name": "neural-chat",
-    "size": "7b",
-    "parameterSize": 7
-  },
-  {
-    "name": "nexusraven",
-    "size": "13b",
-    "parameterSize": 13
-  },
-  {
-    "name": "notus",
-    "size": "7b",
-    "parameterSize": 7
-  },
-  {
-    "name": "notux",
-    "size": "8x7b",
-    "parameterSize": 56
-  },
-  {
-    "name": "nous-hermes",
-    "size": "7b",
-    "parameterSize": 7
-  },
-  {
-    "name": "nous-hermes",
-    "size": "13b",
-    "parameterSize": 13
-  },
-  {
-    "name": "nous-hermes2",
-    "size": "10.7b",
-    "parameterSize": 10.7
-  },
-  {
-    "name": "nous-hermes2",
-    "size": "34b",
-    "parameterSize": 34
-  },
-  {
-    "name": "nous-hermes2-mixtral",
-    "size": "8x7b",
-    "parameterSize": 56
-  },
-  {
-    "name": "nuextract",
-    "size": "3.8b",
-    "parameterSize": 3.8
-  },
-  {
-    "name": "olmo2",
-    "size": "7b",
-    "parameterSize": 7
-  },
-  {
-    "name": "olmo2",
-    "size": "13b",
-    "parameterSize": 13
-  },
-  {
-    "name": "open-orca-platypus2",
-    "size": "13b",
-    "parameterSize": 13
-  },
-  {
-    "name": "openchat",
-    "size": "7b",
-    "parameterSize": 7
-  },
-  {
-    "name": "opencoder",
-    "size": "1.5b",
-    "parameterSize": 1.5
-  },
-  {
-    "name": "opencoder",
-    "size": "8b",
-    "parameterSize": 8
-  },
-  {
-    "name": "openthinker",
-    "size": "7b",
-    "parameterSize": 7
-  },
-  {
-    "name": "openthinker",
-    "size": "32b",
-    "parameterSize": 32
-  },
-  {
-    "name": "orca-mini",
-    "size": "3b",
-    "parameterSize": 3
-  },
-  {
-    "name": "orca-mini",
-    "size": "7b",
-    "parameterSize": 7
-  },
-  {
-    "name": "orca-mini",
-    "size": "13b",
-    "parameterSize": 13
-  },
-  {
-    "name": "orca-mini",
-    "size": "70b",
-    "parameterSize": 70
-  },
-  {
-    "name": "orca2",
-    "size": "7b",
-    "parameterSize": 7
-  },
-  {
-    "name": "orca2",
-    "size": "13b",
-    "parameterSize": 13
-  },
-  {
-    "name": "paraphrase-multilingual",
-    "size": "278m",
-    "parameterSize": 0.278
-  },
-  {
-    "name": "phi",
-    "size": "2.7b",
-    "parameterSize": 2.7
-  },
-  {
-    "name": "phi3",
-    "size": "3.8b",
-    "parameterSize": 3.8
-  },
-  {
-    "name": "phi3",
-    "size": "14b",
-    "parameterSize": 14
-  },
-  {
-    "name": "phi3.5",
-    "size": "3.8b",
-    "parameterSize": 3.8
-  },
-  {
-    "name": "phi4",
-    "size": "14b",
-    "parameterSize": 14
-  },
-  {
-    "name": "phi4-mini",
-    "size": "3.8b",
-    "parameterSize": 3.8
-  },
-  {
-    "name": "phind-codellama",
-    "size": "34b",
-    "parameterSize": 34
-  },
-  {
-    "name": "qwen",
-    "size": "0.5b",
-    "parameterSize": 0.5
-  },
-  {
-    "name": "qwen",
-    "size": "1.8b",
-    "parameterSize": 1.8
-  },
-  {
-    "name": "qwen",
-    "size": "4b",
-    "parameterSize": 4
-  },
-  {
-    "name": "qwen",
-    "size": "7b",
-    "parameterSize": 7
-  },
-  {
-    "name": "qwen",
-    "size": "14b",
-    "parameterSize": 14
-  },
-  {
-    "name": "qwen",
-    "size": "32b",
-    "parameterSize": 32
-  },
-  {
-    "name": "qwen",
-    "size": "72b",
-    "parameterSize": 72
-  },
-  {
-    "name": "qwen",
-    "size": "110b",
-    "parameterSize": 110
-  },
-  {
-    "name": "qwen2",
-    "size": "0.5b",
-    "parameterSize": 0.5
-  },
-  {
-    "name": "qwen2",
-    "size": "1.5b",
-    "parameterSize": 1.5
-  },
-  {
-    "name": "qwen2",
-    "size": "7b",
-    "parameterSize": 7
-  },
-  {
-    "name": "qwen2",
-    "size": "72b",
-    "parameterSize": 72
-  },
-  {
-    "name": "qwen2-math",
-    "size": "1.5b",
-    "parameterSize": 1.5
-  },
-  {
-    "name": "qwen2-math",
-    "size": "7b",
-    "parameterSize": 7
-  },
-  {
-    "name": "qwen2-math",
-    "size": "72b",
-    "parameterSize": 72
-  },
-  {
-    "name": "qwen2.5",
-    "size": "0.5b",
-    "parameterSize": 0.5
-  },
-  {
-    "name": "qwen2.5",
-    "size": "1.5b",
-    "parameterSize": 1.5
-  },
-  {
-    "name": "qwen2.5",
-    "size": "3b",
-    "parameterSize": 3
-  },
-  {
-    "name": "qwen2.5",
-    "size": "7b",
-    "parameterSize": 7
-  },
-  {
-    "name": "qwen2.5",
-    "size": "14b",
-    "parameterSize": 14
-  },
-  {
-    "name": "qwen2.5",
-    "size": "32b",
-    "parameterSize": 32
-  },
-  {
-    "name": "qwen2.5",
-    "size": "72b",
-    "parameterSize": 72
-  },
-  {
-    "name": "qwen2.5-coder",
-    "size": "0.5b",
-    "parameterSize": 0.5
-  },
-  {
-    "name": "qwen2.5-coder",
-    "size": "1.5b",
-    "parameterSize": 1.5
-  },
-  {
-    "name": "qwen2.5-coder",
-    "size": "3b",
-    "parameterSize": 3
-  },
-  {
-    "name": "qwen2.5-coder",
-    "size": "7b",
-    "parameterSize": 7
-  },
-  {
-    "name": "qwen2.5-coder",
-    "size": "14b",
-    "parameterSize": 14
-  },
-  {
-    "name": "qwen2.5-coder",
-    "size": "32b",
-    "parameterSize": 32
+    "parameterSize": 27,
+    "lastUpdated": "3 days ago"
   },
   {
     "name": "qwq",
     "size": "32b",
-    "parameterSize": 32
+    "parameterSize": 32,
+    "lastUpdated": "2 weeks ago"
   },
   {
-    "name": "r1-1776",
-    "size": "70b",
-    "parameterSize": 70
-  },
-  {
-    "name": "r1-1776",
-    "size": "671b",
-    "parameterSize": 671
-  },
-  {
-    "name": "reader-lm",
-    "size": "0.5b",
-    "parameterSize": 0.5
-  },
-  {
-    "name": "reader-lm",
+    "name": "deepseek-r1",
     "size": "1.5b",
-    "parameterSize": 1.5
+    "parameterSize": 1.5,
+    "lastUpdated": "7 weeks ago"
   },
   {
-    "name": "reflection",
-    "size": "70b",
-    "parameterSize": 70
+    "name": "deepseek-r1",
+    "size": "7b",
+    "parameterSize": 7,
+    "lastUpdated": "7 weeks ago"
   },
   {
-    "name": "sailor2",
-    "size": "1b",
-    "parameterSize": 1
-  },
-  {
-    "name": "sailor2",
+    "name": "deepseek-r1",
     "size": "8b",
-    "parameterSize": 8
+    "parameterSize": 8,
+    "lastUpdated": "7 weeks ago"
   },
   {
-    "name": "sailor2",
-    "size": "20b",
-    "parameterSize": 20
+    "name": "deepseek-r1",
+    "size": "14b",
+    "parameterSize": 14,
+    "lastUpdated": "7 weeks ago"
   },
   {
-    "name": "samantha-mistral",
-    "size": "7b",
-    "parameterSize": 7
+    "name": "deepseek-r1",
+    "size": "32b",
+    "parameterSize": 32,
+    "lastUpdated": "7 weeks ago"
   },
   {
-    "name": "shieldgemma",
-    "size": "2b",
-    "parameterSize": 2
-  },
-  {
-    "name": "shieldgemma",
-    "size": "9b",
-    "parameterSize": 9
-  },
-  {
-    "name": "shieldgemma",
-    "size": "27b",
-    "parameterSize": 27
-  },
-  {
-    "name": "smallthinker",
-    "size": "3b",
-    "parameterSize": 3
-  },
-  {
-    "name": "smollm",
-    "size": "135m",
-    "parameterSize": 0.135
-  },
-  {
-    "name": "smollm",
-    "size": "360m",
-    "parameterSize": 0.36
-  },
-  {
-    "name": "smollm",
-    "size": "1.7b",
-    "parameterSize": 1.7
-  },
-  {
-    "name": "smollm2",
-    "size": "135m",
-    "parameterSize": 0.135
-  },
-  {
-    "name": "smollm2",
-    "size": "360m",
-    "parameterSize": 0.36
-  },
-  {
-    "name": "smollm2",
-    "size": "1.7b",
-    "parameterSize": 1.7
-  },
-  {
-    "name": "snowflake-arctic-embed",
-    "size": "22m",
-    "parameterSize": 0.022
-  },
-  {
-    "name": "snowflake-arctic-embed",
-    "size": "33m",
-    "parameterSize": 0.033
-  },
-  {
-    "name": "snowflake-arctic-embed",
-    "size": "110m",
-    "parameterSize": 0.11
-  },
-  {
-    "name": "snowflake-arctic-embed",
-    "size": "137m",
-    "parameterSize": 0.137
-  },
-  {
-    "name": "snowflake-arctic-embed",
-    "size": "335m",
-    "parameterSize": 0.335
-  },
-  {
-    "name": "snowflake-arctic-embed2",
-    "size": "568m",
-    "parameterSize": 0.568
-  },
-  {
-    "name": "solar",
-    "size": "10.7b",
-    "parameterSize": 10.7
-  },
-  {
-    "name": "solar-pro",
-    "size": "22b",
-    "parameterSize": 22
-  },
-  {
-    "name": "sqlcoder",
-    "size": "7b",
-    "parameterSize": 7
-  },
-  {
-    "name": "sqlcoder",
-    "size": "15b",
-    "parameterSize": 15
-  },
-  {
-    "name": "stable-beluga",
-    "size": "7b",
-    "parameterSize": 7
-  },
-  {
-    "name": "stable-beluga",
-    "size": "13b",
-    "parameterSize": 13
-  },
-  {
-    "name": "stable-beluga",
+    "name": "deepseek-r1",
     "size": "70b",
-    "parameterSize": 70
+    "parameterSize": 70,
+    "lastUpdated": "7 weeks ago"
   },
   {
-    "name": "stable-code",
-    "size": "3b",
-    "parameterSize": 3
+    "name": "deepseek-r1",
+    "size": "671b",
+    "parameterSize": 671,
+    "lastUpdated": "7 weeks ago"
   },
   {
-    "name": "stablelm-zephyr",
-    "size": "3b",
-    "parameterSize": 3
+    "name": "llama3.3",
+    "size": "70b",
+    "parameterSize": 70,
+    "lastUpdated": "3 months ago"
   },
   {
-    "name": "stablelm2",
-    "size": "1.6b",
-    "parameterSize": 1.6
+    "name": "phi4",
+    "size": "14b",
+    "parameterSize": 14,
+    "lastUpdated": "2 months ago"
   },
   {
-    "name": "stablelm2",
-    "size": "12b",
-    "parameterSize": 12
-  },
-  {
-    "name": "starcoder",
+    "name": "llama3.2",
     "size": "1b",
-    "parameterSize": 1
+    "parameterSize": 1,
+    "lastUpdated": "6 months ago"
   },
   {
-    "name": "starcoder",
+    "name": "llama3.2",
     "size": "3b",
-    "parameterSize": 3
+    "parameterSize": 3,
+    "lastUpdated": "6 months ago"
   },
   {
-    "name": "starcoder",
+    "name": "llama3.1",
+    "size": "8b",
+    "parameterSize": 8,
+    "lastUpdated": "3 months ago"
+  },
+  {
+    "name": "llama3.1",
+    "size": "70b",
+    "parameterSize": 70,
+    "lastUpdated": "3 months ago"
+  },
+  {
+    "name": "llama3.1",
+    "size": "405b",
+    "parameterSize": 405,
+    "lastUpdated": "3 months ago"
+  },
+  {
+    "name": "mistral",
     "size": "7b",
-    "parameterSize": 7
+    "parameterSize": 7,
+    "lastUpdated": "8 months ago"
   },
   {
-    "name": "starcoder",
-    "size": "15b",
-    "parameterSize": 15
+    "name": "llama3",
+    "size": "8b",
+    "parameterSize": 8,
+    "lastUpdated": "10 months ago"
   },
   {
-    "name": "starcoder2",
+    "name": "llama3",
+    "size": "70b",
+    "parameterSize": 70,
+    "lastUpdated": "10 months ago"
+  },
+  {
+    "name": "qwen2.5",
+    "size": "0.5b",
+    "parameterSize": 0.5,
+    "lastUpdated": "6 months ago"
+  },
+  {
+    "name": "qwen2.5",
+    "size": "1.5b",
+    "parameterSize": 1.5,
+    "lastUpdated": "6 months ago"
+  },
+  {
+    "name": "qwen2.5",
     "size": "3b",
-    "parameterSize": 3
+    "parameterSize": 3,
+    "lastUpdated": "6 months ago"
   },
   {
-    "name": "starcoder2",
+    "name": "qwen2.5",
     "size": "7b",
-    "parameterSize": 7
+    "parameterSize": 7,
+    "lastUpdated": "6 months ago"
   },
   {
-    "name": "starcoder2",
-    "size": "15b",
-    "parameterSize": 15
+    "name": "qwen2.5",
+    "size": "14b",
+    "parameterSize": 14,
+    "lastUpdated": "6 months ago"
   },
   {
-    "name": "starling-lm",
+    "name": "qwen2.5",
+    "size": "32b",
+    "parameterSize": 32,
+    "lastUpdated": "6 months ago"
+  },
+  {
+    "name": "qwen2.5",
+    "size": "72b",
+    "parameterSize": 72,
+    "lastUpdated": "6 months ago"
+  },
+  {
+    "name": "qwen2.5-coder",
+    "size": "0.5b",
+    "parameterSize": 0.5,
+    "lastUpdated": "4 months ago"
+  },
+  {
+    "name": "qwen2.5-coder",
+    "size": "1.5b",
+    "parameterSize": 1.5,
+    "lastUpdated": "4 months ago"
+  },
+  {
+    "name": "qwen2.5-coder",
+    "size": "3b",
+    "parameterSize": 3,
+    "lastUpdated": "4 months ago"
+  },
+  {
+    "name": "qwen2.5-coder",
     "size": "7b",
-    "parameterSize": 7
+    "parameterSize": 7,
+    "lastUpdated": "4 months ago"
   },
   {
-    "name": "tinydolphin",
-    "size": "1.1b",
-    "parameterSize": 1.1
+    "name": "qwen2.5-coder",
+    "size": "14b",
+    "parameterSize": 14,
+    "lastUpdated": "4 months ago"
+  },
+  {
+    "name": "qwen2.5-coder",
+    "size": "32b",
+    "parameterSize": 32,
+    "lastUpdated": "4 months ago"
+  },
+  {
+    "name": "qwen",
+    "size": "0.5b",
+    "parameterSize": 0.5,
+    "lastUpdated": "11 months ago"
+  },
+  {
+    "name": "qwen",
+    "size": "1.8b",
+    "parameterSize": 1.8,
+    "lastUpdated": "11 months ago"
+  },
+  {
+    "name": "qwen",
+    "size": "4b",
+    "parameterSize": 4,
+    "lastUpdated": "11 months ago"
+  },
+  {
+    "name": "qwen",
+    "size": "7b",
+    "parameterSize": 7,
+    "lastUpdated": "11 months ago"
+  },
+  {
+    "name": "qwen",
+    "size": "14b",
+    "parameterSize": 14,
+    "lastUpdated": "11 months ago"
+  },
+  {
+    "name": "qwen",
+    "size": "32b",
+    "parameterSize": 32,
+    "lastUpdated": "11 months ago"
+  },
+  {
+    "name": "qwen",
+    "size": "72b",
+    "parameterSize": 72,
+    "lastUpdated": "11 months ago"
+  },
+  {
+    "name": "qwen",
+    "size": "110b",
+    "parameterSize": 110,
+    "lastUpdated": "11 months ago"
+  },
+  {
+    "name": "gemma",
+    "size": "2b",
+    "parameterSize": 2,
+    "lastUpdated": "11 months ago"
+  },
+  {
+    "name": "gemma",
+    "size": "7b",
+    "parameterSize": 7,
+    "lastUpdated": "11 months ago"
+  },
+  {
+    "name": "llava",
+    "size": "7b",
+    "parameterSize": 7,
+    "lastUpdated": "14 months ago"
+  },
+  {
+    "name": "llava",
+    "size": "13b",
+    "parameterSize": 13,
+    "lastUpdated": "14 months ago"
+  },
+  {
+    "name": "llava",
+    "size": "34b",
+    "parameterSize": 34,
+    "lastUpdated": "14 months ago"
+  },
+  {
+    "name": "qwen2",
+    "size": "0.5b",
+    "parameterSize": 0.5,
+    "lastUpdated": "6 months ago"
+  },
+  {
+    "name": "qwen2",
+    "size": "1.5b",
+    "parameterSize": 1.5,
+    "lastUpdated": "6 months ago"
+  },
+  {
+    "name": "qwen2",
+    "size": "7b",
+    "parameterSize": 7,
+    "lastUpdated": "6 months ago"
+  },
+  {
+    "name": "qwen2",
+    "size": "72b",
+    "parameterSize": 72,
+    "lastUpdated": "6 months ago"
+  },
+  {
+    "name": "gemma2",
+    "size": "2b",
+    "parameterSize": 2,
+    "lastUpdated": "7 months ago"
+  },
+  {
+    "name": "gemma2",
+    "size": "9b",
+    "parameterSize": 9,
+    "lastUpdated": "7 months ago"
+  },
+  {
+    "name": "gemma2",
+    "size": "27b",
+    "parameterSize": 27,
+    "lastUpdated": "7 months ago"
+  },
+  {
+    "name": "llama2",
+    "size": "7b",
+    "parameterSize": 7,
+    "lastUpdated": "15 months ago"
+  },
+  {
+    "name": "llama2",
+    "size": "13b",
+    "parameterSize": 13,
+    "lastUpdated": "15 months ago"
+  },
+  {
+    "name": "llama2",
+    "size": "70b",
+    "parameterSize": 70,
+    "lastUpdated": "15 months ago"
+  },
+  {
+    "name": "phi3",
+    "size": "3.8b",
+    "parameterSize": 3.8,
+    "lastUpdated": "8 months ago"
+  },
+  {
+    "name": "phi3",
+    "size": "14b",
+    "parameterSize": 14,
+    "lastUpdated": "8 months ago"
+  },
+  {
+    "name": "mxbai-embed-large",
+    "size": "335m",
+    "parameterSize": 0.335,
+    "lastUpdated": "10 months ago"
+  },
+  {
+    "name": "codellama",
+    "size": "7b",
+    "parameterSize": 7,
+    "lastUpdated": "8 months ago"
+  },
+  {
+    "name": "codellama",
+    "size": "13b",
+    "parameterSize": 13,
+    "lastUpdated": "8 months ago"
+  },
+  {
+    "name": "codellama",
+    "size": "34b",
+    "parameterSize": 34,
+    "lastUpdated": "8 months ago"
+  },
+  {
+    "name": "codellama",
+    "size": "70b",
+    "parameterSize": 70,
+    "lastUpdated": "8 months ago"
+  },
+  {
+    "name": "llama3.2-vision",
+    "size": "11b",
+    "parameterSize": 11,
+    "lastUpdated": "4 months ago"
+  },
+  {
+    "name": "llama3.2-vision",
+    "size": "90b",
+    "parameterSize": 90,
+    "lastUpdated": "4 months ago"
+  },
+  {
+    "name": "mistral-nemo",
+    "size": "12b",
+    "parameterSize": 12,
+    "lastUpdated": "7 months ago"
   },
   {
     "name": "tinyllama",
     "size": "1.1b",
-    "parameterSize": 1.1
+    "parameterSize": 1.1,
+    "lastUpdated": "15 months ago"
   },
   {
-    "name": "tulu3",
+    "name": "starcoder2",
+    "size": "3b",
+    "parameterSize": 3,
+    "lastUpdated": "6 months ago"
+  },
+  {
+    "name": "starcoder2",
+    "size": "7b",
+    "parameterSize": 7,
+    "lastUpdated": "6 months ago"
+  },
+  {
+    "name": "starcoder2",
+    "size": "15b",
+    "parameterSize": 15,
+    "lastUpdated": "6 months ago"
+  },
+  {
+    "name": "deepseek-v3",
+    "size": "671b",
+    "parameterSize": 671,
+    "lastUpdated": "2 months ago"
+  },
+  {
+    "name": "llama2-uncensored",
+    "size": "7b",
+    "parameterSize": 7,
+    "lastUpdated": "17 months ago"
+  },
+  {
+    "name": "llama2-uncensored",
+    "size": "70b",
+    "parameterSize": 70,
+    "lastUpdated": "17 months ago"
+  },
+  {
+    "name": "deepseek-coder-v2",
+    "size": "16b",
+    "parameterSize": 16,
+    "lastUpdated": "6 months ago"
+  },
+  {
+    "name": "deepseek-coder-v2",
+    "size": "236b",
+    "parameterSize": 236,
+    "lastUpdated": "6 months ago"
+  },
+  {
+    "name": "bge-m3",
+    "size": "567m",
+    "parameterSize": 0.567,
+    "lastUpdated": "7 months ago"
+  },
+  {
+    "name": "minicpm-v",
     "size": "8b",
-    "parameterSize": 8
+    "parameterSize": 8,
+    "lastUpdated": "4 months ago"
   },
   {
-    "name": "tulu3",
-    "size": "70b",
-    "parameterSize": 70
+    "name": "snowflake-arctic-embed",
+    "size": "22m",
+    "parameterSize": 0.022,
+    "lastUpdated": "11 months ago"
   },
   {
-    "name": "vicuna",
-    "size": "7b",
-    "parameterSize": 7
+    "name": "snowflake-arctic-embed",
+    "size": "33m",
+    "parameterSize": 0.033,
+    "lastUpdated": "11 months ago"
   },
   {
-    "name": "vicuna",
-    "size": "13b",
-    "parameterSize": 13
+    "name": "snowflake-arctic-embed",
+    "size": "110m",
+    "parameterSize": 0.11,
+    "lastUpdated": "11 months ago"
   },
   {
-    "name": "vicuna",
+    "name": "snowflake-arctic-embed",
+    "size": "137m",
+    "parameterSize": 0.137,
+    "lastUpdated": "11 months ago"
+  },
+  {
+    "name": "snowflake-arctic-embed",
+    "size": "335m",
+    "parameterSize": 0.335,
+    "lastUpdated": "11 months ago"
+  },
+  {
+    "name": "deepseek-coder",
+    "size": "1.3b",
+    "parameterSize": 1.3,
+    "lastUpdated": "15 months ago"
+  },
+  {
+    "name": "deepseek-coder",
+    "size": "6.7b",
+    "parameterSize": 6.7,
+    "lastUpdated": "15 months ago"
+  },
+  {
+    "name": "deepseek-coder",
     "size": "33b",
-    "parameterSize": 33
+    "parameterSize": 33,
+    "lastUpdated": "15 months ago"
   },
   {
-    "name": "wizard-math",
+    "name": "mixtral",
+    "size": "8x7b",
+    "parameterSize": 56,
+    "lastUpdated": "3 months ago"
+  },
+  {
+    "name": "mixtral",
+    "size": "8x22b",
+    "parameterSize": 176,
+    "lastUpdated": "3 months ago"
+  },
+  {
+    "name": "codegemma",
+    "size": "2b",
+    "parameterSize": 2,
+    "lastUpdated": "8 months ago"
+  },
+  {
+    "name": "codegemma",
     "size": "7b",
-    "parameterSize": 7
+    "parameterSize": 7,
+    "lastUpdated": "8 months ago"
   },
   {
-    "name": "wizard-math",
-    "size": "13b",
-    "parameterSize": 13
+    "name": "dolphin3",
+    "size": "8b",
+    "parameterSize": 8,
+    "lastUpdated": "2 months ago"
   },
   {
-    "name": "wizard-math",
-    "size": "70b",
-    "parameterSize": 70
+    "name": "dolphin-mixtral",
+    "size": "8x7b",
+    "parameterSize": 56,
+    "lastUpdated": "3 months ago"
   },
   {
-    "name": "wizard-vicuna",
-    "size": "13b",
-    "parameterSize": 13
+    "name": "dolphin-mixtral",
+    "size": "8x22b",
+    "parameterSize": 176,
+    "lastUpdated": "3 months ago"
   },
   {
-    "name": "wizard-vicuna-uncensored",
+    "name": "llava-llama3",
+    "size": "8b",
+    "parameterSize": 8,
+    "lastUpdated": "10 months ago"
+  },
+  {
+    "name": "openthinker",
     "size": "7b",
-    "parameterSize": 7
+    "parameterSize": 7,
+    "lastUpdated": "6 weeks ago"
   },
   {
-    "name": "wizard-vicuna-uncensored",
+    "name": "openthinker",
+    "size": "32b",
+    "parameterSize": 32,
+    "lastUpdated": "6 weeks ago"
+  },
+  {
+    "name": "phi",
+    "size": "2.7b",
+    "parameterSize": 2.7,
+    "lastUpdated": "14 months ago"
+  },
+  {
+    "name": "olmo2",
+    "size": "7b",
+    "parameterSize": 7,
+    "lastUpdated": "2 months ago"
+  },
+  {
+    "name": "olmo2",
     "size": "13b",
-    "parameterSize": 13
+    "parameterSize": 13,
+    "lastUpdated": "2 months ago"
   },
   {
-    "name": "wizard-vicuna-uncensored",
-    "size": "30b",
-    "parameterSize": 30
+    "name": "smollm2",
+    "size": "135m",
+    "parameterSize": 0.135,
+    "lastUpdated": "4 months ago"
   },
   {
-    "name": "wizardcoder",
-    "size": "33b",
-    "parameterSize": 33
+    "name": "smollm2",
+    "size": "360m",
+    "parameterSize": 0.36,
+    "lastUpdated": "4 months ago"
   },
   {
-    "name": "wizardlm-uncensored",
-    "size": "13b",
-    "parameterSize": 13
+    "name": "smollm2",
+    "size": "1.7b",
+    "parameterSize": 1.7,
+    "lastUpdated": "4 months ago"
+  },
+  {
+    "name": "mistral-small",
+    "size": "22b",
+    "parameterSize": 22,
+    "lastUpdated": "8 weeks ago"
+  },
+  {
+    "name": "mistral-small",
+    "size": "24b",
+    "parameterSize": 24,
+    "lastUpdated": "8 weeks ago"
   },
   {
     "name": "wizardlm2",
     "size": "7b",
-    "parameterSize": 7
+    "parameterSize": 7,
+    "lastUpdated": "11 months ago"
   },
   {
     "name": "wizardlm2",
     "size": "8x22b",
-    "parameterSize": 176
+    "parameterSize": 176,
+    "lastUpdated": "11 months ago"
   },
   {
-    "name": "xwinlm",
+    "name": "all-minilm",
+    "size": "22m",
+    "parameterSize": 0.022,
+    "lastUpdated": "10 months ago"
+  },
+  {
+    "name": "all-minilm",
+    "size": "33m",
+    "parameterSize": 0.033,
+    "lastUpdated": "10 months ago"
+  },
+  {
+    "name": "dolphin-mistral",
     "size": "7b",
-    "parameterSize": 7
+    "parameterSize": 7,
+    "lastUpdated": "12 months ago"
   },
   {
-    "name": "xwinlm",
+    "name": "dolphin-llama3",
+    "size": "8b",
+    "parameterSize": 8,
+    "lastUpdated": "10 months ago"
+  },
+  {
+    "name": "dolphin-llama3",
+    "size": "70b",
+    "parameterSize": 70,
+    "lastUpdated": "10 months ago"
+  },
+  {
+    "name": "orca-mini",
+    "size": "3b",
+    "parameterSize": 3,
+    "lastUpdated": "17 months ago"
+  },
+  {
+    "name": "orca-mini",
+    "size": "7b",
+    "parameterSize": 7,
+    "lastUpdated": "17 months ago"
+  },
+  {
+    "name": "orca-mini",
     "size": "13b",
-    "parameterSize": 13
+    "parameterSize": 13,
+    "lastUpdated": "17 months ago"
   },
   {
-    "name": "yarn-llama2",
-    "size": "7b",
-    "parameterSize": 7
+    "name": "orca-mini",
+    "size": "70b",
+    "parameterSize": 70,
+    "lastUpdated": "17 months ago"
   },
   {
-    "name": "yarn-llama2",
-    "size": "13b",
-    "parameterSize": 13
-  },
-  {
-    "name": "yarn-mistral",
-    "size": "7b",
-    "parameterSize": 7
+    "name": "command-r",
+    "size": "35b",
+    "parameterSize": 35,
+    "lastUpdated": "6 months ago"
   },
   {
     "name": "yi",
     "size": "6b",
-    "parameterSize": 6
+    "parameterSize": 6,
+    "lastUpdated": "10 months ago"
   },
   {
     "name": "yi",
     "size": "9b",
-    "parameterSize": 9
+    "parameterSize": 9,
+    "lastUpdated": "10 months ago"
   },
   {
     "name": "yi",
     "size": "34b",
-    "parameterSize": 34
+    "parameterSize": 34,
+    "lastUpdated": "10 months ago"
   },
   {
-    "name": "yi-coder",
-    "size": "1.5b",
-    "parameterSize": 1.5
+    "name": "hermes3",
+    "size": "3b",
+    "parameterSize": 3,
+    "lastUpdated": "3 months ago"
   },
   {
-    "name": "yi-coder",
-    "size": "9b",
-    "parameterSize": 9
+    "name": "hermes3",
+    "size": "8b",
+    "parameterSize": 8,
+    "lastUpdated": "3 months ago"
+  },
+  {
+    "name": "hermes3",
+    "size": "70b",
+    "parameterSize": 70,
+    "lastUpdated": "3 months ago"
+  },
+  {
+    "name": "hermes3",
+    "size": "405b",
+    "parameterSize": 405,
+    "lastUpdated": "3 months ago"
+  },
+  {
+    "name": "phi3.5",
+    "size": "3.8b",
+    "parameterSize": 3.8,
+    "lastUpdated": "6 months ago"
   },
   {
     "name": "zephyr",
     "size": "7b",
-    "parameterSize": 7
+    "parameterSize": 7,
+    "lastUpdated": "11 months ago"
   },
   {
     "name": "zephyr",
     "size": "141b",
-    "parameterSize": 141
+    "parameterSize": 141,
+    "lastUpdated": "11 months ago"
+  },
+  {
+    "name": "codestral",
+    "size": "22b",
+    "parameterSize": 22,
+    "lastUpdated": "6 months ago"
+  },
+  {
+    "name": "smollm",
+    "size": "135m",
+    "parameterSize": 0.135,
+    "lastUpdated": "7 months ago"
+  },
+  {
+    "name": "smollm",
+    "size": "360m",
+    "parameterSize": 0.36,
+    "lastUpdated": "7 months ago"
+  },
+  {
+    "name": "smollm",
+    "size": "1.7b",
+    "parameterSize": 1.7,
+    "lastUpdated": "7 months ago"
+  },
+  {
+    "name": "granite-code",
+    "size": "3b",
+    "parameterSize": 3,
+    "lastUpdated": "6 months ago"
+  },
+  {
+    "name": "granite-code",
+    "size": "8b",
+    "parameterSize": 8,
+    "lastUpdated": "6 months ago"
+  },
+  {
+    "name": "granite-code",
+    "size": "20b",
+    "parameterSize": 20,
+    "lastUpdated": "6 months ago"
+  },
+  {
+    "name": "granite-code",
+    "size": "34b",
+    "parameterSize": 34,
+    "lastUpdated": "6 months ago"
+  },
+  {
+    "name": "starcoder",
+    "size": "1b",
+    "parameterSize": 1,
+    "lastUpdated": "17 months ago"
+  },
+  {
+    "name": "starcoder",
+    "size": "3b",
+    "parameterSize": 3,
+    "lastUpdated": "17 months ago"
+  },
+  {
+    "name": "starcoder",
+    "size": "7b",
+    "parameterSize": 7,
+    "lastUpdated": "17 months ago"
+  },
+  {
+    "name": "starcoder",
+    "size": "15b",
+    "parameterSize": 15,
+    "lastUpdated": "17 months ago"
+  },
+  {
+    "name": "wizard-vicuna-uncensored",
+    "size": "7b",
+    "parameterSize": 7,
+    "lastUpdated": "17 months ago"
+  },
+  {
+    "name": "wizard-vicuna-uncensored",
+    "size": "13b",
+    "parameterSize": 13,
+    "lastUpdated": "17 months ago"
+  },
+  {
+    "name": "wizard-vicuna-uncensored",
+    "size": "30b",
+    "parameterSize": 30,
+    "lastUpdated": "17 months ago"
+  },
+  {
+    "name": "vicuna",
+    "size": "7b",
+    "parameterSize": 7,
+    "lastUpdated": "17 months ago"
+  },
+  {
+    "name": "vicuna",
+    "size": "13b",
+    "parameterSize": 13,
+    "lastUpdated": "17 months ago"
+  },
+  {
+    "name": "vicuna",
+    "size": "33b",
+    "parameterSize": 33,
+    "lastUpdated": "17 months ago"
+  },
+  {
+    "name": "mistral-openorca",
+    "size": "7b",
+    "parameterSize": 7,
+    "lastUpdated": "17 months ago"
+  },
+  {
+    "name": "moondream",
+    "size": "1.8b",
+    "parameterSize": 1.8,
+    "lastUpdated": "10 months ago"
+  },
+  {
+    "name": "llama2-chinese",
+    "size": "7b",
+    "parameterSize": 7,
+    "lastUpdated": "17 months ago"
+  },
+  {
+    "name": "llama2-chinese",
+    "size": "13b",
+    "parameterSize": 13,
+    "lastUpdated": "17 months ago"
+  },
+  {
+    "name": "openchat",
+    "size": "7b",
+    "parameterSize": 7,
+    "lastUpdated": "14 months ago"
+  },
+  {
+    "name": "codegeex4",
+    "size": "9b",
+    "parameterSize": 9,
+    "lastUpdated": "8 months ago"
+  },
+  {
+    "name": "aya",
+    "size": "8b",
+    "parameterSize": 8,
+    "lastUpdated": "10 months ago"
+  },
+  {
+    "name": "aya",
+    "size": "35b",
+    "parameterSize": 35,
+    "lastUpdated": "10 months ago"
+  },
+  {
+    "name": "codeqwen",
+    "size": "7b",
+    "parameterSize": 7,
+    "lastUpdated": "9 months ago"
+  },
+  {
+    "name": "deepseek-llm",
+    "size": "7b",
+    "parameterSize": 7,
+    "lastUpdated": "15 months ago"
+  },
+  {
+    "name": "deepseek-llm",
+    "size": "67b",
+    "parameterSize": 67,
+    "lastUpdated": "15 months ago"
+  },
+  {
+    "name": "deepseek-v2",
+    "size": "16b",
+    "parameterSize": 16,
+    "lastUpdated": "9 months ago"
+  },
+  {
+    "name": "deepseek-v2",
+    "size": "236b",
+    "parameterSize": 236,
+    "lastUpdated": "9 months ago"
+  },
+  {
+    "name": "mistral-large",
+    "size": "123b",
+    "parameterSize": 123,
+    "lastUpdated": "4 months ago"
+  },
+  {
+    "name": "glm4",
+    "size": "9b",
+    "parameterSize": 9,
+    "lastUpdated": "8 months ago"
+  },
+  {
+    "name": "stable-code",
+    "size": "3b",
+    "parameterSize": 3,
+    "lastUpdated": "12 months ago"
+  },
+  {
+    "name": "nous-hermes2",
+    "size": "10.7b",
+    "parameterSize": 10.7,
+    "lastUpdated": "15 months ago"
+  },
+  {
+    "name": "nous-hermes2",
+    "size": "34b",
+    "parameterSize": 34,
+    "lastUpdated": "15 months ago"
+  },
+  {
+    "name": "qwen2-math",
+    "size": "1.5b",
+    "parameterSize": 1.5,
+    "lastUpdated": "6 months ago"
+  },
+  {
+    "name": "qwen2-math",
+    "size": "7b",
+    "parameterSize": 7,
+    "lastUpdated": "6 months ago"
+  },
+  {
+    "name": "qwen2-math",
+    "size": "72b",
+    "parameterSize": 72,
+    "lastUpdated": "6 months ago"
+  },
+  {
+    "name": "tinydolphin",
+    "size": "1.1b",
+    "parameterSize": 1.1,
+    "lastUpdated": "14 months ago"
+  },
+  {
+    "name": "command-r-plus",
+    "size": "104b",
+    "parameterSize": 104,
+    "lastUpdated": "6 months ago"
+  },
+  {
+    "name": "wizardcoder",
+    "size": "33b",
+    "parameterSize": 33,
+    "lastUpdated": "14 months ago"
+  },
+  {
+    "name": "bakllava",
+    "size": "7b",
+    "parameterSize": 7,
+    "lastUpdated": "15 months ago"
+  },
+  {
+    "name": "stablelm2",
+    "size": "1.6b",
+    "parameterSize": 1.6,
+    "lastUpdated": "10 months ago"
+  },
+  {
+    "name": "stablelm2",
+    "size": "12b",
+    "parameterSize": 12,
+    "lastUpdated": "10 months ago"
+  },
+  {
+    "name": "neural-chat",
+    "size": "7b",
+    "parameterSize": 7,
+    "lastUpdated": "15 months ago"
+  },
+  {
+    "name": "reflection",
+    "size": "70b",
+    "parameterSize": 70,
+    "lastUpdated": "6 months ago"
+  },
+  {
+    "name": "wizard-math",
+    "size": "7b",
+    "parameterSize": 7,
+    "lastUpdated": "15 months ago"
+  },
+  {
+    "name": "wizard-math",
+    "size": "13b",
+    "parameterSize": 13,
+    "lastUpdated": "15 months ago"
+  },
+  {
+    "name": "wizard-math",
+    "size": "70b",
+    "parameterSize": 70,
+    "lastUpdated": "15 months ago"
+  },
+  {
+    "name": "llama3-chatqa",
+    "size": "8b",
+    "parameterSize": 8,
+    "lastUpdated": "10 months ago"
+  },
+  {
+    "name": "llama3-chatqa",
+    "size": "70b",
+    "parameterSize": 70,
+    "lastUpdated": "10 months ago"
+  },
+  {
+    "name": "llama3-gradient",
+    "size": "8b",
+    "parameterSize": 8,
+    "lastUpdated": "10 months ago"
+  },
+  {
+    "name": "llama3-gradient",
+    "size": "70b",
+    "parameterSize": 70,
+    "lastUpdated": "10 months ago"
+  },
+  {
+    "name": "sqlcoder",
+    "size": "7b",
+    "parameterSize": 7,
+    "lastUpdated": "14 months ago"
+  },
+  {
+    "name": "sqlcoder",
+    "size": "15b",
+    "parameterSize": 15,
+    "lastUpdated": "14 months ago"
+  },
+  {
+    "name": "bge-large",
+    "size": "335m",
+    "parameterSize": 0.335,
+    "lastUpdated": "7 months ago"
+  },
+  {
+    "name": "samantha-mistral",
+    "size": "7b",
+    "parameterSize": 7,
+    "lastUpdated": "17 months ago"
+  },
+  {
+    "name": "granite3.1-dense",
+    "size": "2b",
+    "parameterSize": 2,
+    "lastUpdated": "2 months ago"
+  },
+  {
+    "name": "granite3.1-dense",
+    "size": "8b",
+    "parameterSize": 8,
+    "lastUpdated": "2 months ago"
+  },
+  {
+    "name": "dolphincoder",
+    "size": "7b",
+    "parameterSize": 7,
+    "lastUpdated": "11 months ago"
+  },
+  {
+    "name": "dolphincoder",
+    "size": "15b",
+    "parameterSize": 15,
+    "lastUpdated": "11 months ago"
+  },
+  {
+    "name": "phi4-mini",
+    "size": "3.8b",
+    "parameterSize": 3.8,
+    "lastUpdated": "3 weeks ago"
+  },
+  {
+    "name": "xwinlm",
+    "size": "7b",
+    "parameterSize": 7,
+    "lastUpdated": "17 months ago"
+  },
+  {
+    "name": "xwinlm",
+    "size": "13b",
+    "parameterSize": 13,
+    "lastUpdated": "17 months ago"
+  },
+  {
+    "name": "llava-phi3",
+    "size": "3.8b",
+    "parameterSize": 3.8,
+    "lastUpdated": "10 months ago"
+  },
+  {
+    "name": "nous-hermes",
+    "size": "7b",
+    "parameterSize": 7,
+    "lastUpdated": "17 months ago"
+  },
+  {
+    "name": "nous-hermes",
+    "size": "13b",
+    "parameterSize": 13,
+    "lastUpdated": "17 months ago"
+  },
+  {
+    "name": "phind-codellama",
+    "size": "34b",
+    "parameterSize": 34,
+    "lastUpdated": "15 months ago"
+  },
+  {
+    "name": "starling-lm",
+    "size": "7b",
+    "parameterSize": 7,
+    "lastUpdated": "11 months ago"
+  },
+  {
+    "name": "solar",
+    "size": "10.7b",
+    "parameterSize": 10.7,
+    "lastUpdated": "15 months ago"
+  },
+  {
+    "name": "yarn-llama2",
+    "size": "7b",
+    "parameterSize": 7,
+    "lastUpdated": "16 months ago"
+  },
+  {
+    "name": "yarn-llama2",
+    "size": "13b",
+    "parameterSize": 13,
+    "lastUpdated": "16 months ago"
+  },
+  {
+    "name": "yi-coder",
+    "size": "1.5b",
+    "parameterSize": 1.5,
+    "lastUpdated": "6 months ago"
+  },
+  {
+    "name": "yi-coder",
+    "size": "9b",
+    "parameterSize": 9,
+    "lastUpdated": "6 months ago"
+  },
+  {
+    "name": "athene-v2",
+    "size": "72b",
+    "parameterSize": 72,
+    "lastUpdated": "4 months ago"
+  },
+  {
+    "name": "internlm2",
+    "size": "1m",
+    "parameterSize": 0.001,
+    "lastUpdated": "7 months ago"
+  },
+  {
+    "name": "internlm2",
+    "size": "1.8b",
+    "parameterSize": 1.8,
+    "lastUpdated": "7 months ago"
+  },
+  {
+    "name": "internlm2",
+    "size": "7b",
+    "parameterSize": 7,
+    "lastUpdated": "7 months ago"
+  },
+  {
+    "name": "internlm2",
+    "size": "20b",
+    "parameterSize": 20,
+    "lastUpdated": "7 months ago"
+  },
+  {
+    "name": "nemotron-mini",
+    "size": "4b",
+    "parameterSize": 4,
+    "lastUpdated": "6 months ago"
+  },
+  {
+    "name": "falcon",
+    "size": "7b",
+    "parameterSize": 7,
+    "lastUpdated": "17 months ago"
+  },
+  {
+    "name": "falcon",
+    "size": "40b",
+    "parameterSize": 40,
+    "lastUpdated": "17 months ago"
+  },
+  {
+    "name": "falcon",
+    "size": "180b",
+    "parameterSize": 180,
+    "lastUpdated": "17 months ago"
+  },
+  {
+    "name": "deepscaler",
+    "size": "1.5b",
+    "parameterSize": 1.5,
+    "lastUpdated": "6 weeks ago"
+  },
+  {
+    "name": "nemotron",
+    "size": "70b",
+    "parameterSize": 70,
+    "lastUpdated": "5 months ago"
+  },
+  {
+    "name": "dolphin-phi",
+    "size": "2.7b",
+    "parameterSize": 2.7,
+    "lastUpdated": "15 months ago"
+  },
+  {
+    "name": "orca2",
+    "size": "7b",
+    "parameterSize": 7,
+    "lastUpdated": "16 months ago"
+  },
+  {
+    "name": "orca2",
+    "size": "13b",
+    "parameterSize": 13,
+    "lastUpdated": "16 months ago"
+  },
+  {
+    "name": "granite3-dense",
+    "size": "2b",
+    "parameterSize": 2,
+    "lastUpdated": "4 months ago"
+  },
+  {
+    "name": "granite3-dense",
+    "size": "8b",
+    "parameterSize": 8,
+    "lastUpdated": "4 months ago"
+  },
+  {
+    "name": "wizardlm-uncensored",
+    "size": "13b",
+    "parameterSize": 13,
+    "lastUpdated": "17 months ago"
+  },
+  {
+    "name": "stable-beluga",
+    "size": "7b",
+    "parameterSize": 7,
+    "lastUpdated": "17 months ago"
+  },
+  {
+    "name": "stable-beluga",
+    "size": "13b",
+    "parameterSize": 13,
+    "lastUpdated": "17 months ago"
+  },
+  {
+    "name": "stable-beluga",
+    "size": "70b",
+    "parameterSize": 70,
+    "lastUpdated": "17 months ago"
+  },
+  {
+    "name": "llama3-groq-tool-use",
+    "size": "8b",
+    "parameterSize": 8,
+    "lastUpdated": "8 months ago"
+  },
+  {
+    "name": "llama3-groq-tool-use",
+    "size": "70b",
+    "parameterSize": 70,
+    "lastUpdated": "8 months ago"
+  },
+  {
+    "name": "paraphrase-multilingual",
+    "size": "278m",
+    "parameterSize": 0.278,
+    "lastUpdated": "7 months ago"
+  },
+  {
+    "name": "snowflake-arctic-embed2",
+    "size": "568m",
+    "parameterSize": 0.568,
+    "lastUpdated": "3 months ago"
+  },
+  {
+    "name": "granite3.2",
+    "size": "2b",
+    "parameterSize": 2,
+    "lastUpdated": "4 weeks ago"
+  },
+  {
+    "name": "granite3.2",
+    "size": "8b",
+    "parameterSize": 8,
+    "lastUpdated": "4 weeks ago"
+  },
+  {
+    "name": "deepseek-v2.5",
+    "size": "236b",
+    "parameterSize": 236,
+    "lastUpdated": "6 months ago"
+  },
+  {
+    "name": "smallthinker",
+    "size": "3b",
+    "parameterSize": 3,
+    "lastUpdated": "2 months ago"
+  },
+  {
+    "name": "meditron",
+    "size": "7b",
+    "parameterSize": 7,
+    "lastUpdated": "15 months ago"
+  },
+  {
+    "name": "meditron",
+    "size": "70b",
+    "parameterSize": 70,
+    "lastUpdated": "15 months ago"
+  },
+  {
+    "name": "aya-expanse",
+    "size": "8b",
+    "parameterSize": 8,
+    "lastUpdated": "5 months ago"
+  },
+  {
+    "name": "aya-expanse",
+    "size": "32b",
+    "parameterSize": 32,
+    "lastUpdated": "5 months ago"
+  },
+  {
+    "name": "medllama2",
+    "size": "7b",
+    "parameterSize": 7,
+    "lastUpdated": "17 months ago"
+  },
+  {
+    "name": "granite3-moe",
+    "size": "1b",
+    "parameterSize": 1,
+    "lastUpdated": "4 months ago"
+  },
+  {
+    "name": "granite3-moe",
+    "size": "3b",
+    "parameterSize": 3,
+    "lastUpdated": "4 months ago"
+  },
+  {
+    "name": "yarn-mistral",
+    "size": "7b",
+    "parameterSize": 7,
+    "lastUpdated": "17 months ago"
+  },
+  {
+    "name": "falcon3",
+    "size": "1b",
+    "parameterSize": 1,
+    "lastUpdated": "3 months ago"
+  },
+  {
+    "name": "falcon3",
+    "size": "3b",
+    "parameterSize": 3,
+    "lastUpdated": "3 months ago"
+  },
+  {
+    "name": "falcon3",
+    "size": "7b",
+    "parameterSize": 7,
+    "lastUpdated": "3 months ago"
+  },
+  {
+    "name": "falcon3",
+    "size": "10b",
+    "parameterSize": 10,
+    "lastUpdated": "3 months ago"
+  },
+  {
+    "name": "nexusraven",
+    "size": "13b",
+    "parameterSize": 13,
+    "lastUpdated": "14 months ago"
+  },
+  {
+    "name": "codeup",
+    "size": "13b",
+    "parameterSize": 13,
+    "lastUpdated": "17 months ago"
+  },
+  {
+    "name": "everythinglm",
+    "size": "13b",
+    "parameterSize": 13,
+    "lastUpdated": "15 months ago"
+  },
+  {
+    "name": "nous-hermes2-mixtral",
+    "size": "8x7b",
+    "parameterSize": 56,
+    "lastUpdated": "3 months ago"
+  },
+  {
+    "name": "granite3.1-moe",
+    "size": "1b",
+    "parameterSize": 1,
+    "lastUpdated": "2 months ago"
+  },
+  {
+    "name": "granite3.1-moe",
+    "size": "3b",
+    "parameterSize": 3,
+    "lastUpdated": "2 months ago"
+  },
+  {
+    "name": "shieldgemma",
+    "size": "2b",
+    "parameterSize": 2,
+    "lastUpdated": "5 months ago"
+  },
+  {
+    "name": "shieldgemma",
+    "size": "9b",
+    "parameterSize": 9,
+    "lastUpdated": "5 months ago"
+  },
+  {
+    "name": "shieldgemma",
+    "size": "27b",
+    "parameterSize": 27,
+    "lastUpdated": "5 months ago"
+  },
+  {
+    "name": "reader-lm",
+    "size": "0.5b",
+    "parameterSize": 0.5,
+    "lastUpdated": "6 months ago"
+  },
+  {
+    "name": "reader-lm",
+    "size": "1.5b",
+    "parameterSize": 1.5,
+    "lastUpdated": "6 months ago"
+  },
+  {
+    "name": "marco-o1",
+    "size": "7b",
+    "parameterSize": 7,
+    "lastUpdated": "3 months ago"
+  },
+  {
+    "name": "mathstral",
+    "size": "7b",
+    "parameterSize": 7,
+    "lastUpdated": "8 months ago"
+  },
+  {
+    "name": "llama-guard3",
+    "size": "1b",
+    "parameterSize": 1,
+    "lastUpdated": "5 months ago"
+  },
+  {
+    "name": "llama-guard3",
+    "size": "8b",
+    "parameterSize": 8,
+    "lastUpdated": "5 months ago"
+  },
+  {
+    "name": "solar-pro",
+    "size": "22b",
+    "parameterSize": 22,
+    "lastUpdated": "6 months ago"
+  },
+  {
+    "name": "falcon2",
+    "size": "11b",
+    "parameterSize": 11,
+    "lastUpdated": "10 months ago"
+  },
+  {
+    "name": "exaone3.5",
+    "size": "2.4b",
+    "parameterSize": 2.4,
+    "lastUpdated": "3 months ago"
+  },
+  {
+    "name": "exaone3.5",
+    "size": "7.8b",
+    "parameterSize": 7.8,
+    "lastUpdated": "3 months ago"
+  },
+  {
+    "name": "exaone3.5",
+    "size": "32b",
+    "parameterSize": 32,
+    "lastUpdated": "3 months ago"
+  },
+  {
+    "name": "stablelm-zephyr",
+    "size": "3b",
+    "parameterSize": 3,
+    "lastUpdated": "15 months ago"
+  },
+  {
+    "name": "magicoder",
+    "size": "7b",
+    "parameterSize": 7,
+    "lastUpdated": "15 months ago"
+  },
+  {
+    "name": "codebooga",
+    "size": "34b",
+    "parameterSize": 34,
+    "lastUpdated": "17 months ago"
+  },
+  {
+    "name": "duckdb-nsql",
+    "size": "7b",
+    "parameterSize": 7,
+    "lastUpdated": "14 months ago"
+  },
+  {
+    "name": "granite3.2-vision",
+    "size": "2b",
+    "parameterSize": 2,
+    "lastUpdated": "4 weeks ago"
+  },
+  {
+    "name": "mistrallite",
+    "size": "7b",
+    "parameterSize": 7,
+    "lastUpdated": "17 months ago"
+  },
+  {
+    "name": "wizard-vicuna",
+    "size": "13b",
+    "parameterSize": 13,
+    "lastUpdated": "17 months ago"
+  },
+  {
+    "name": "opencoder",
+    "size": "1.5b",
+    "parameterSize": 1.5,
+    "lastUpdated": "4 months ago"
+  },
+  {
+    "name": "opencoder",
+    "size": "8b",
+    "parameterSize": 8,
+    "lastUpdated": "4 months ago"
+  },
+  {
+    "name": "command-r7b",
+    "size": "7b",
+    "parameterSize": 7,
+    "lastUpdated": "2 months ago"
+  },
+  {
+    "name": "nuextract",
+    "size": "3.8b",
+    "parameterSize": 3.8,
+    "lastUpdated": "8 months ago"
+  },
+  {
+    "name": "granite-embedding",
+    "size": "30m",
+    "parameterSize": 0.03,
+    "lastUpdated": "3 months ago"
+  },
+  {
+    "name": "granite-embedding",
+    "size": "278m",
+    "parameterSize": 0.278,
+    "lastUpdated": "3 months ago"
+  },
+  {
+    "name": "megadolphin",
+    "size": "120b",
+    "parameterSize": 120,
+    "lastUpdated": "14 months ago"
+  },
+  {
+    "name": "bespoke-minicheck",
+    "size": "7b",
+    "parameterSize": 7,
+    "lastUpdated": "6 months ago"
+  },
+  {
+    "name": "notux",
+    "size": "8x7b",
+    "parameterSize": 56,
+    "lastUpdated": "15 months ago"
+  },
+  {
+    "name": "open-orca-platypus2",
+    "size": "13b",
+    "parameterSize": 13,
+    "lastUpdated": "17 months ago"
+  },
+  {
+    "name": "notus",
+    "size": "7b",
+    "parameterSize": 7,
+    "lastUpdated": "15 months ago"
+  },
+  {
+    "name": "tulu3",
+    "size": "8b",
+    "parameterSize": 8,
+    "lastUpdated": "3 months ago"
+  },
+  {
+    "name": "tulu3",
+    "size": "70b",
+    "parameterSize": 70,
+    "lastUpdated": "3 months ago"
+  },
+  {
+    "name": "r1-1776",
+    "size": "70b",
+    "parameterSize": 70,
+    "lastUpdated": "4 weeks ago"
+  },
+  {
+    "name": "r1-1776",
+    "size": "671b",
+    "parameterSize": 671,
+    "lastUpdated": "4 weeks ago"
+  },
+  {
+    "name": "firefunction-v2",
+    "size": "70b",
+    "parameterSize": 70,
+    "lastUpdated": "8 months ago"
+  },
+  {
+    "name": "dbrx",
+    "size": "132b",
+    "parameterSize": 132,
+    "lastUpdated": "11 months ago"
+  },
+  {
+    "name": "granite3-guardian",
+    "size": "2b",
+    "parameterSize": 2,
+    "lastUpdated": "4 months ago"
+  },
+  {
+    "name": "granite3-guardian",
+    "size": "8b",
+    "parameterSize": 8,
+    "lastUpdated": "4 months ago"
+  },
+  {
+    "name": "alfred",
+    "size": "40b",
+    "parameterSize": 40,
+    "lastUpdated": "16 months ago"
+  },
+  {
+    "name": "exaone-deep",
+    "size": "2.4b",
+    "parameterSize": 2.4,
+    "lastUpdated": "8 days ago"
+  },
+  {
+    "name": "exaone-deep",
+    "size": "7.8b",
+    "parameterSize": 7.8,
+    "lastUpdated": "8 days ago"
+  },
+  {
+    "name": "exaone-deep",
+    "size": "32b",
+    "parameterSize": 32,
+    "lastUpdated": "8 days ago"
+  },
+  {
+    "name": "sailor2",
+    "size": "1b",
+    "parameterSize": 1,
+    "lastUpdated": "3 months ago"
+  },
+  {
+    "name": "sailor2",
+    "size": "8b",
+    "parameterSize": 8,
+    "lastUpdated": "3 months ago"
+  },
+  {
+    "name": "sailor2",
+    "size": "20b",
+    "parameterSize": 20,
+    "lastUpdated": "3 months ago"
+  },
+  {
+    "name": "command-a",
+    "size": "111b",
+    "parameterSize": 111,
+    "lastUpdated": "2 weeks ago"
+  },
+  {
+    "name": "command-r7b-arabic",
+    "size": "7b",
+    "parameterSize": 7,
+    "lastUpdated": "3 weeks ago"
   }
 ]

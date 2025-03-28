@@ -88,6 +88,10 @@ function parseOllamaHTML(htmlContent) {
     
     const name = fullName.split(' ')[0].toLowerCase(); // Extract first word as model name
     
+    // Extract the last updated date from span with x-test-updated attribute
+    const updatedElement = modelCard.find('span[x-test-updated]');
+    const lastUpdated = updatedElement.length > 0 ? updatedElement.text().trim() : null;
+    
     // Extract size information - sizes are in spans with attribute x-test-size
     const sizeElements = modelCard.find('span[x-test-size]');
     if (sizeElements.length === 0) return; // Skip if no size information
@@ -132,16 +136,10 @@ function parseOllamaHTML(htmlContent) {
       models.push({
         name,
         size: displaySize,
-        parameterSize // Size in billions of parameters
+        parameterSize, // Size in billions of parameters
+        lastUpdated   // Add the last updated information
       });
     });
-  });
-  
-  // Sort models by name and size
-  models.sort((a, b) => {
-    // Sort by name, then by size
-    if (a.name !== b.name) return a.name.localeCompare(b.name);
-    return a.parameterSize - b.parameterSize;
   });
   
   return models;
