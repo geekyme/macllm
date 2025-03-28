@@ -1,0 +1,56 @@
+{
+  "models": [
+    { "id": "macbook-air", "name": "MacBook Air" },
+    { "id": "macbook-pro", "name": "MacBook Pro" },
+    { "id": "imac", "name": "iMac" },
+    { "id": "mac-mini", "name": "Mac mini" },
+    { "id": "mac-studio", "name": "Mac Studio" },
+    { "id": "mac-pro", "name": "Mac Pro" }
+  ],
+  "specs": {
+    "macbook-air": [
+      { "id": "m1", "name": "M1", "ram": [8, 16] },
+      { "id": "m2", "name": "M2", "ram": [8, 16, 24] },
+      { "id": "m3", "name": "M3", "ram": [8, 16, 24] },
+      { "id": "m4", "name": "M4", "ram": [8, 16, 24, 32] }
+    ],
+    "macbook-pro": [
+      { "id": "m1", "name": "M1", "ram": [8, 16] },
+      { "id": "m1-pro", "name": "M1 Pro", "ram": [16, 32] },
+      { "id": "m1-max", "name": "M1 Max", "ram": [32, 64] },
+      { "id": "m2", "name": "M2", "ram": [8, 16] },
+      { "id": "m2-pro", "name": "M2 Pro", "ram": [16, 32] },
+      { "id": "m2-max", "name": "M2 Max", "ram": [32, 64, 96] },
+      { "id": "m3", "name": "M3", "ram": [8, 16] },
+      { "id": "m3-pro", "name": "M3 Pro", "ram": [18, 36] },
+      { "id": "m3-max", "name": "M3 Max", "ram": [36, 48, 64, 96, 128] },
+      { "id": "m4", "name": "M4", "ram": [16, 24, 32] },
+      { "id": "m4-pro", "name": "M4 Pro", "ram": [18, 36, 48] },
+      { "id": "m4-max", "name": "M4 Max", "ram": [36, 48, 64, 96, 128] }
+    ],
+    "imac": [
+      { "id": "m1", "name": "M1", "ram": [8, 16] },
+      { "id": "m3", "name": "M3", "ram": [8, 16, 24] },
+      { "id": "m4", "name": "M4", "ram": [16, 24, 32] }
+    ],
+    "mac-mini": [
+      { "id": "m1", "name": "M1", "ram": [8, 16] },
+      { "id": "m2", "name": "M2", "ram": [8, 16] },
+      { "id": "m2-pro", "name": "M2 Pro", "ram": [16, 32] },
+      { "id": "m4", "name": "M4", "ram": [8, 16, 24, 32] },
+      { "id": "m4-pro", "name": "M4 Pro", "ram": [16, 32, 48, 64] }
+    ],
+    "mac-studio": [
+      { "id": "m1-max", "name": "M1 Max", "ram": [32, 64] },
+      { "id": "m1-ultra", "name": "M1 Ultra", "ram": [64, 128] },
+      { "id": "m2-max", "name": "M2 Max", "ram": [32, 64, 96] },
+      { "id": "m2-ultra", "name": "M2 Ultra", "ram": [64, 128, 192] },
+      { "id": "m3-max", "name": "M3 Max", "ram": [32, 64, 96] },
+      { "id": "m3-ultra", "name": "M3 Ultra", "ram": [96, 256, 512] },
+      { "id": "m4-max", "name": "M4 Max", "ram": [32, 64, 96, 128] }
+    ],
+    "mac-pro": [
+      { "id": "m2-ultra", "name": "M2 Ultra", "ram": [64, 128, 192] }
+    ]
+  }
+} 
