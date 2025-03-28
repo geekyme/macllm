@@ -53,7 +53,7 @@ const specs = {
     { id: 'm4-max', name: 'M4 Max', ram: [32, 64, 96, 128] },
   ],
   'mac-pro': [
-    { id: 'm2-ultra', name: 'M2 Ultra', ram: [64, 96, 128, 192] },
+    { id: 'm2-ultra', name: 'M2 Ultra', ram: [64, 128, 192] },
   ]
 }
 
